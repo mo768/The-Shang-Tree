@@ -793,6 +793,7 @@ GameObject:
   - component: {fileID: 140743948}
   - component: {fileID: 140743947}
   - component: {fileID: 140743946}
+  - component: {fileID: 140743950}
   m_Layer: 0
   m_Name: Teleporter 2
   m_TagString: Untagged
@@ -810,7 +811,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -889,6 +890,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &140743950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140743945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9d73251230695418e37bca8d846656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleportTarget: {fileID: 717511163}
+  thePlayer: {fileID: 1973644747}
 --- !u!1 &142038931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,6 +2140,7 @@ GameObject:
   - component: {fileID: 402379647}
   - component: {fileID: 402379646}
   - component: {fileID: 402379645}
+  - component: {fileID: 402379649}
   m_Layer: 0
   m_Name: Teleporter
   m_TagString: Untagged
@@ -2142,7 +2158,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2221,6 +2237,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &402379649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402379644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9d73251230695418e37bca8d846656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleportTarget: {fileID: 313618526}
+  thePlayer: {fileID: 1973644747}
 --- !u!1 &420572837
 GameObject:
   m_ObjectHideFlags: 0
@@ -5207,7 +5237,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991583718}
   m_LocalRotation: {x: -0, y: -0, z: 0.35749525, w: 0.93391496}
-  m_LocalPosition: {x: 42.5832, y: 2.1812, z: 0.06000215}
+  m_LocalPosition: {x: 42.6, y: 2.2, z: 0.06000215}
   m_LocalScale: {x: 0.0980143, y: 1.3430443, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8024,7 +8054,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751485030}
   m_LocalRotation: {x: -0, y: -0, z: -0.35983983, w: 0.9330141}
-  m_LocalPosition: {x: 41.6153, y: 2.1635, z: 0.06000215}
+  m_LocalPosition: {x: 41.6321, y: 2.1823, z: 0.06000215}
   m_LocalScale: {x: 0.10997952, y: 1.4055741, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8769,7 +8799,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973644747}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 88.5, y: 3.9, z: -6.87}
+  m_LocalPosition: {x: 137.4, y: 5, z: -6.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
